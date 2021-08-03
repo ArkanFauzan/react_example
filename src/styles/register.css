@@ -50,3 +50,11 @@
     background-color: navy;
 }
 
+.register label{
+    padding: 10px 0 5px 0;
+}
+
+.register .invalid-feedback{
+    padding: 0px;
+}
+

@@ -27,7 +27,7 @@ const RegisterPage = ()=>{
                 repassword: true
             })
         }
-    },[repassword])
+    },[password, repassword])
 
     const handleSubmit = async ()=>{
         const valid = await validate();
